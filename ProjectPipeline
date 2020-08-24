@@ -1,0 +1,31 @@
+Introduction:
+
+I have been hired by a startup called Helping You Move based in the city of Toronto. They help people move to similar places to their current location when they wish.
+I was handed in the task to provide a cluster of simmilar localities in the city based on simmilar location near each neighbourhoods. The manager has told me that there are
+mainly 5 clusters of neighbourhood that I need to find similarity and has told me that their client base finds satisfaction if the locations are quite similar around 500m area.
+
+
+Data:
+
+The city data was collected from Wikipedia. It had all the neighbourhood latitude and longitude location in a tabular format. The location of toronto was taken from
+google. The boundaries were taken in as a json file. Foursquare API was used to fetch the nearby location data to get similar locations. The data contained category
+of all the location available and are labelled as 0 or 1 with 0 showing if the location is present and 0 if the location is absent. This data was utilized to get the top 
+5 locations near the neighbourhood and finding the similarity.
+
+Methodology:
+
+The methods used for the project was KMeansClustering. Since the data was an unsupervised one a clustering algorithm was needed to be implemented and since we wanted to find
+the top 5 places a methodology of KMeansClustering was utilized.
+
+Results:
+
+The result was quite excellent as the model was able to recognize similar models from the city of Toronto. Even though a non-premium account of Foursquare API was used which
+kindoff halted the process a bit the end result was amazing and a clear image of simmilar neighbourhoods was generated using Folium Maps.
+
+Discussion:
+
+With more complex computation and a premium Foursquare API the project would have turned a lot of heads. But nevertheless was a really special one to create.
+
+Conclusion:
+
+The idea can be formulated to many other cities and can be used to help moving.

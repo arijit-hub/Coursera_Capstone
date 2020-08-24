@@ -1,0 +1,4 @@
+The city data was collected from Wikipedia. It had all the neighbourhood latitude and longitude location in a tabular format. The location of toronto was taken from
+google. The boundaries were taken in as a json file. Foursquare API was used to fetch the nearby location data to get similar locations. The data contained category
+of all the location available and are labelled as 0 or 1 with 0 showing if the location is present and 0 if the location is absent. This data was utilized to get the top 
+5 locations near the neighbourhood and finding the similarity.
